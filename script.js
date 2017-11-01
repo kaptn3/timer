@@ -3,7 +3,7 @@ setTimePage = (d,h,m,s) => {
   const e2 = document.querySelector(".hours");
   const e3 = document.querySelector(".minutes");
   const e4 = document.querySelector(".sec");
-  console.log(e1);
+
   e1.innerHTML = d;
   e2.innerHTML = h;
   e3.innerHTML = m;
