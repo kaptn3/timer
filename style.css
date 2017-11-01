@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(30deg, #FFE172, #FFA5FF);
+  width: 100%;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25px;
+}
+.days,
+.hours,
+.minutes,
+.sec {
+  padding: 15px 0;
+  width: 48px;
+  background-color: #222;
+  margin: 0 8px;
+  color: #fff;
+}
